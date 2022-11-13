@@ -289,6 +289,9 @@ function input10(param)
     }
 }
 
+
+
+
 function predict()
 {
     if (rule4==1)
@@ -297,6 +300,7 @@ function predict()
         {
             prediksi = 'tidak stroke'
             screen.value = prediksi
+            location.href='nostrokeResult.html'
         } else
         {
             if(rule2=='pra lanjut usia')
