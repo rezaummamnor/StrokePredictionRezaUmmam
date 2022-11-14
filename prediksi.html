@@ -55,18 +55,23 @@
             <div class="bundle">
 				<output id="cek2" type="text">jawaban Anda</output>
 				<div class="display2">
-					2. Kategori Umur
+					2. Berapa umur Anda saat ini?
 				</div>				
 			</div>
 
-            <div class="btns">
+			<div class="input">
+				<input id="inputan" type="text" placeholder="tahun">
+				<button id="inputumur" onclick="kategoriUmur(umur.value)">input</button>
+			</div>
+
+            <!--<div class="btns">
                 <div class="row">
                     <button onclick="input2('anak-anak')">anak-anak</button>
                     <button onclick="input2('remaja')">remaja</button>
                     <button onclick="input2('dewasa')">dewasa</button>
                     <button onclick="input2('pra lanjut usia')">pra lanjut usia</button>
                     <button onclick="input2('lanjut usia')">lanjut usia</button>
-                </div>
+                </div> -->
 
             </div>
 
@@ -166,18 +171,27 @@
 			<div class="bundle">
 				<output id="cek9" type="text">jawaban Anda</output>
 				<div class="display2">
-					9. Kategori Obesitas
+					9. Berapakah BMI (Body Mass Index) Anda saat ini?
 				</div>				
 			</div>
 
-            <div class="btns">
+			<div class="input">
+				<input id="inputan2" type="text" placeholder="berat badan (kg)">
+			</div>
+
+			<div class="input">
+				<input id="inputan3" type="text" placeholder="tinggi badan (cm)">
+				<button id="inputumur" onclick="BMI()">input</button>
+			</div>
+
+            <!--<div class="btns">
                 <div class="row">
                     <button onclick="input9('kurus')">Kurus</button>
                     <button onclick="input9('normal')">Normal</button>
                     <button onclick="input9('obesitas')">Obesitas</button>
                 </div>
 
-            </div>
+            </div> -->
 
 			<div class="bundle">
 				<output id="cek10" type="text">jawaban Anda</output>

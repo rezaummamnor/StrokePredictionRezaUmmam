@@ -117,17 +117,6 @@ section h3 {
 	color: #148F77;
 	margin-bottom: 25px;
 }
-.about,
-.service {
-	padding-bottom: 100px;
-}
-.about p {
-	color: #666;
-	word-spacing: 2px;
-	line-height: 25px;
-	margin-bottom: 20px;
-	text-align: center;
-}
 
 footer {
 	padding:30px 0;
@@ -194,6 +183,26 @@ button {
 	padding: 10px 20px 10px 20px;
 	margin: 5px 5px;
 	border-radius: 2em;
+	width: 150px;
+}
+
+#inputumur {
+	background-color: #4a4a4a;
+	color: #fff;
+	width: 70px;
+}
+
+.input {
+	margin: 20px 5%;
+}
+
+#inputan, #inputan2, #inputan3 {
+	text-align: right;
+	padding: 10px 10px;
+	background-color: #fff;
+	border: none;
+	border-radius: 2em;
+	width: 300px;
 }
 
 output {
@@ -217,12 +226,51 @@ output {
 }
 
 .aboutTitle h3 {
-	border: #4a4a4a 3px solid;
+	border: #4a4a4a 4px solid;
 	padding: 10px;
 	margin-left: auto;
 	margin-right: auto;
 	width: fit-content;
+	font-size: 20pt;
 	
+}
+
+.aboutTitles {
+	text-align: center;
+	background-image: url('../img/background.jpg');
+	background-size: cover;
+	color: #4a4a4a;
+	padding: 20px;
+	margin-bottom: 50px;
+	margin-bottom: 0;
+	
+}
+
+.aboutTitles img {
+	width: 500px;
+}
+
+.aboutTitles h3 {
+	border: #4a4a4a 4px solid;
+	padding: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	width: fit-content;
+	margin-bottom: 20px;
+	font-size: 20pt;
+	
+}
+
+.saran p {
+	color: #fff;
+	background-color: #4a4a4a;
+	width: 70%;
+	margin: 20pt 10%;
+	padding: 20px;
+	border-radius: 2em;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
 }
 
 .part1 {
@@ -244,7 +292,7 @@ output {
 
 	float: right;
 	width: 40%;
-	padding: 20px;
+	padding: 0 20px;
 }
 
 .part1 p {
@@ -264,7 +312,7 @@ output {
 }
 
 .stroke h3 {
-	margin: 0 auto;
+	margin: 50px auto;
 }
 
 .stroke h3, h4 {
@@ -323,12 +371,13 @@ output {
 	border-radius: 2em;
 	float: left;
 	margin-left: 10px;
+	width: 150px;
+	text-align: center;
 	
 }
 
-.changed h4{
-	margin-left: auto;
-	margin-right: auto;
+.changed h4, .unchanged h4{
+	margin: 50px auto;
 }
 
 .changed ul:after {
@@ -346,7 +395,7 @@ output {
 	margin-left: auto;
 	margin-right: auto;
 	list-style: none;
-	margin-bottom: 80px;
+	margin-bottom: 50px;
 	
 }
 
@@ -355,13 +404,15 @@ output {
 	background-color: #4a4a4a;
 	color: #fff;
 	padding: 10px 15px 10px 15px;
-	margin-bottom: 5px;
+	margin-bottom: 10px;
 	margin-top: 5px;
 	border-radius: 2em;
-	float: left;
 	margin-left: 10px;
+	width: 200px;
+	text-align: center;
 	
 }
+
 
 .strokepredict {
 	margin-left: auto;

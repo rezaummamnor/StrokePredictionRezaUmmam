@@ -1,4 +1,7 @@
 var screen=document.querySelector('#screen');
+var umur=document.querySelector('#inputan');
+var bb=document.querySelector('#inputan2');
+var tb=document.querySelector('#inputan3');
 
 var dicek1=document.querySelector('#cek1');
 var dicek2=document.querySelector('#cek2');
@@ -18,6 +21,77 @@ var rule2 = 0
 item.addEventListener('click',(e)=>{
     btntext=e.target.innerText;
 });
+
+function BMI()
+{
+    tinggi = tb.value/100
+    bmi_value = bb.value/(tinggi*tinggi)
+    if(bmi_value<=18.4)
+    {
+        rule9 = 'kurus'
+        dicek9.value = bmi_value.toFixed(2) + ' - ' + rule9
+    } else
+    {
+        if(bmi_value<=25)
+        {
+            rule9 = 'normal'
+            dicek9.value = bmi_value.toFixed(2) + ' - ' + rule9
+        } else
+        {
+            if(bmi_value>25)
+            {
+                rule9 = 'obesitas'
+                dicek9.value = bmi_value.toFixed(2) + ' - ' + rule9
+            } else
+            {
+                rule9 = 'error'
+                dicek9.value = rule9
+            }
+        }
+    }
+}
+
+function kategoriUmur(a)
+{
+    if (a <= 10)
+    {
+        rule2 = 'anak-anak'
+        dicek2.value = rule2
+    } else
+    {
+        if (a<=19)
+        {
+            rule2 = 'remaja'
+            dicek2.value = rule2
+        } else
+        {
+            if (a<=44)
+            {
+                rule2 = 'dewasa'
+                dicek2.value = rule2
+            } else
+            {
+                if (a<=59)
+                {
+                    rule2 = 'pra lanjut usia'
+                    dicek2.value = rule2
+                } else
+                {
+                    if (a>59)
+                    {
+                        rule2 = 'lanjut usia'
+                        dicek2.value = rule2
+                    } else
+                    {
+                        rule2 = 'error'
+                        dicek2.value = rule2
+                    }
+                }
+            }
+        }
+        
+    }
+}
 
 //jenis kelamin
 function input1(param)
@@ -309,6 +383,7 @@ function predict()
                 {
                     prediksi = 'stroke'
                     screen.value = prediksi
+                    location.href='strokeResult.html'
                 } else 
                 {
                     if(rule8==0)
