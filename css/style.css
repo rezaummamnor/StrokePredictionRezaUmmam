@@ -215,7 +215,7 @@ output {
 	border-radius: 2em;
 }
 
-.aboutTitle {
+.aboutTitle, .tipsTitle {
 	text-align: center;
 	background-image: url('../img/background.jpg');
 	background-size: cover;
@@ -233,6 +233,23 @@ output {
 	width: fit-content;
 	font-size: 20pt;
 	
+}
+
+.tipsTitle {
+	margin-top: 50px;
+}
+
+.tipsTitle h4 {
+	border: #4a4a4a 2px solid;
+	padding: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	width: fit-content;
+	background-image: none;
+}
+
+#atas {
+	margin-top: 0px;
 }
 
 .aboutTitles {
@@ -296,7 +313,6 @@ output {
 }
 
 .part1 p {
-	margin-top: 10%;
 	border-bottom: #4a4a4a 2px solid;
 	text-align: center;
 	padding-bottom: 10px;
@@ -305,6 +321,14 @@ output {
 
 .part1 img {
 	width: 400px;
+}
+
+#ptips {
+	margin-top: 5%;
+}
+
+#rokok {
+	margin-bottom: 50px;
 }
 
 .stroke .part1 p {
@@ -323,19 +347,9 @@ output {
 	color: #4a4a4a;
 }
 
-.stroke #satu {
-	text-align: center;
-	border-bottom: #4a4a4a 2px solid;
-}
+#satu {
 
-
-.stroke #dua {
-	text-align: center;
-	border-bottom: #4a4a4a 2px solid;
-	padding: 10px;
-	width: 50%;
-	margin: 20px;
-	float: right;
+	margin-top: 15%;
 }
 
 .unchanged h4{
