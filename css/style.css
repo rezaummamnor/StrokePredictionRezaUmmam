@@ -587,5 +587,12 @@ output {
 	#inputumur {
 		width: 20%;
 	}
+	.aboutTitles img {
+		width: 300px;
+	}
+	.aboutTitles h3 {
+		font-size: 15pt;
+		border-width: 3px;
+	}
 
 }
