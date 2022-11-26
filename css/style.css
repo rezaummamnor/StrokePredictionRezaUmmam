@@ -521,7 +521,7 @@ output {
 		
 	}
 	.part1 {
-		margin-left: 25%;
+		margin-left: 15%;
 		margin-bottom: 30px;
 	}
 	.part1 ul li {
@@ -529,14 +529,45 @@ output {
 		width: 250px;
 		padding: 0;
 	}
+
+	
+	.unchanged ul:after {
+		content:'';
+		display: block;
+		clear: both;
+	}
+	
+	
+	.stroke .unchanged ul {
+		
+		width: fit-content;
+		margin-top: 20px;
+		margin-bottom: 20px;
+		margin-left: 20%;
+		margin-right: auto;
+		list-style: none;
+		margin-bottom: 50px;
+		
+	}
+	
+	
+	.stroke .unchanged ul li {
+		background-color: #4a4a4a;
+		color: #fff;
+		padding: 10px 15px 10px 15px;
+		margin-bottom: 10px;
+		margin-top: 5px;
+		border-radius: 2em;
+		margin-left: 10px;
+		width: 200px;
+		text-align: center;
+		
+	}
 	.unchanged h4{
 		width: 300px;
 		text-align: center;
+	}
 
-	}
-	.unchanged {
-		margin: auto;
-	}
 	.strokepredict {
 		width: 300px;
 	}
