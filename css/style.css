@@ -479,3 +479,75 @@ output {
 		margin-bottom: 20px;
 	}
 }
+
+@media screen and (max-width: 500px){
+	.container {
+		width:90%;
+	}
+	header h1 {
+		text-align: center;
+		float: none;
+	}
+	header ul {
+		text-align: center;
+		float: none;
+		
+	}
+	header ul li {
+		width: 150px;
+		border-bottom: #4a4a4a 4px solid;
+		padding: 0%;
+		margin: 10px 10px;
+	}
+	.banner h2 {
+		font-size: 15pt;
+		margin-left: 20px;
+	}
+	.banner a {
+		font-size: 10pt;
+		width: 175px;
+		margin-left: 15px;
+	}
+	.banner
+	{
+		background-image: url('../img/welcomeBannerPhone.jpg');
+	}
+	.aboutTitle h3 {
+		font-size: 15pt;
+	}
+	.part1 img {
+		width: 300px;
+		
+	}
+	.part1 {
+		margin-left: 10%;
+	}
+	.part1 ul li {
+		float: none;
+		width: 300px;
+		padding: 0 50px;
+	}
+	.unchanged h4{
+		width: 320px;
+
+	}
+	.strokepredict {
+		width: 320px;
+	}
+	.bundle output {
+		width: 70px;
+		font-size: 10pt;
+		text-align: center;
+	}
+	.display2
+	{
+		font-size: 12pt;
+	}
+	#inputan, #inputan2, #inputan3{
+		width: 30%;
+	}
+	#inputumur {
+		width: 20%;
+	}
+
+}
