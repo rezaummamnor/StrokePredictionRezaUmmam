@@ -507,6 +507,7 @@ output {
 		font-size: 10pt;
 		width: 175px;
 		margin-left: 15px;
+		text-align: center;
 	}
 	.banner
 	{
@@ -516,16 +517,13 @@ output {
 		font-size: 15pt;
 	}
 	.part1 img {
-		width: 300px;
+		width: 250px;
 		
-	}
-	.part1 {
-		margin: auto;
 	}
 	.part1 ul li {
 		float: none;
-		width: 300px;
-		padding: 0 50px;
+		width: 250px;
+		padding: 0;
 	}
 	.unchanged h4{
 		width: 320px;
@@ -535,13 +533,12 @@ output {
 		margin: auto;
 	}
 	.strokepredict {
-		width: 320px;
+		width: 300px;
 	}
 	.bundle output {
 		width: 70px;
 		font-size: 10pt;
 		text-align: center;
-		margin-right: 2%;
 	}
 	.display2
 	{
