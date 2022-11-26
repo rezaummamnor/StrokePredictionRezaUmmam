@@ -1844,12 +1844,12 @@ function predictROS()
                                                     {
                                                         if (rule8==0)
                                                         {
-                                                            if (rule6=='belum berkerja')
+                                                            if (rule6=='belum bekerja')
                                                             {
                                                                 location.href='strokeResult.html'
                                                             } else
                                                             {
-                                                                if (rule6=='tidak berkerja')
+                                                                if (rule6=='tidak bekerja')
                                                                 {
                                                                     location.href='strokeResult.html'
                                                                 } else
@@ -1946,12 +1946,12 @@ function predictROS()
                                         {
                                             if (rule9=='obesitas')
                                             {
-                                                if (rule6=='belum berkerja')
+                                                if (rule6=='belum bekerja')
                                                 {
                                                     location.href='strokeResult.html'
                                                 } else
                                                 {
-                                                    if (rule6=='tidak berkerja')
+                                                    if (rule6=='tidak bekerja')
                                                     {
                                                         location.href='strokeResult.html'
                                                     } else
