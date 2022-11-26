@@ -520,7 +520,7 @@ output {
 		
 	}
 	.part1 {
-		margin-left: 10%;
+		margin: auto;
 	}
 	.part1 ul li {
 		float: none;
@@ -531,6 +531,9 @@ output {
 		width: 320px;
 
 	}
+	.unchanged {
+		margin: auto;
+	}
 	.strokepredict {
 		width: 320px;
 	}
@@ -538,6 +541,7 @@ output {
 		width: 70px;
 		font-size: 10pt;
 		text-align: center;
+		margin-right: 2%;
 	}
 	.display2
 	{
