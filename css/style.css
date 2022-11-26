@@ -520,13 +520,18 @@ output {
 		width: 250px;
 		
 	}
+	.part1 {
+		margin-left: 25%;
+		margin-bottom: 30px;
+	}
 	.part1 ul li {
 		float: none;
 		width: 250px;
 		padding: 0;
 	}
 	.unchanged h4{
-		width: 320px;
+		width: 300px;
+		text-align: center;
 
 	}
 	.unchanged {
