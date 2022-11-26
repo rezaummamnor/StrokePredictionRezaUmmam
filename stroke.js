@@ -3194,32 +3194,32 @@ function predictROS()
                                                                                                             }
                                                                                                         }
                                                                                                     }
-                                                                                                }
-                                                                                            } else
-                                                                                            {
-                                                                                                if (rule1=='perempuan')
+                                                                                                } else
                                                                                                 {
-                                                                                                    if (rule10=='tidak merokok')
+                                                                                                    if (rule1=='perempuan')
                                                                                                     {
-                                                                                                        location.href='strokeResult.html'
-                                                                                                    } else
-                                                                                                    {
-                                                                                                        if (rule10=='pernah merokok')
+                                                                                                        if (rule10=='tidak merokok')
                                                                                                         {
-                                                                                                            location.href='nostrokeResult.html'
+                                                                                                            location.href='strokeResult.html'
                                                                                                         } else
                                                                                                         {
-                                                                                                            if (rule10=='merokok')
+                                                                                                            if (rule10=='pernah merokok')
                                                                                                             {
-                                                                                                                location.href='strokeResult.html'
+                                                                                                                location.href='nostrokeResult.html'
                                                                                                             } else
                                                                                                             {
-                                                                                                                location.href='error.html'
+                                                                                                                if (rule10=='merokok')
+                                                                                                                {
+                                                                                                                    location.href='strokeResult.html'
+                                                                                                                } else
+                                                                                                                {
+                                                                                                                    location.href='error.html'
+                                                                                                                }
                                                                                                             }
                                                                                                         }
                                                                                                     }
                                                                                                 }
-                                                                                            }
+                                                                                            } 
                                                                                         }
                                                                                     }
                                                                                 }
