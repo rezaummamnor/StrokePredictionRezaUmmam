@@ -480,7 +480,7 @@ output {
 	}
 }
 
-@media screen and (max-width: 500px){
+@media screen and (max-width: 750px){
 	.container {
 		width:90%;
 	}
