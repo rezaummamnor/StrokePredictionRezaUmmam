@@ -648,6 +648,516 @@ function predictRUS()
                         }
                     }
                 }
+            } else
+            {
+                if (rule2=='lanjut usia')
+                {
+                    if (rule4==1)
+                    {
+                        if (rule8==1)
+                        {
+                            location.href='strokeResult.html'
+                        } else
+                        {
+                            if (rule8==0)
+                            {
+                                if (rule3==1)
+                                {
+                                    location.href='strokeResult.html'
+                                } else
+                                {
+                                    if (rule3==0)
+                                    {
+                                        if (rule5==0)
+                                        {
+                                            location.href='nostrokeResult.html'
+                                        } else
+                                        {
+                                            if (rule5==1)
+                                            {
+                                                if (rule9=='kurus')
+                                                {
+                                                    location.href='strokeResult.html'
+                                                } else
+                                                {
+                                                    if (rule9=='normal')
+                                                    {
+                                                        location.href='strokeResult.html'
+                                                    } else
+                                                    {
+                                                        if (rule9=='obesitas')
+                                                        {
+                                                            location.href='nostrokeResult.html'
+                                                        } else
+                                                        {
+                                                            location.href='error.html'
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    } else
+                    {
+                        if (rule4==0)
+                        {
+                            if (rule3==1)
+                            {
+                                if (rule9=='kurus')
+                                {
+                                    location.href='strokeResult.html'
+                                } else
+                                {
+                                    if (rule9=='normal')
+                                    {
+                                        location.href='strokeResult.html'
+                                    } else
+                                    {
+                                        if (rule9=='obesitas')
+                                        {
+                                            if (rule6=='belum bekerja')
+                                            {
+                                                location.href='nostrokeResult.html'
+                                            } else
+                                            {
+                                                if (rule6=='tidak bekerja')
+                                                {
+                                                    location.href='nostrokeResult.html'
+                                                } else
+                                                {
+                                                    if (rule6=='ASN')
+                                                    {
+                                                        location.href='nostrokeResult.html'
+                                                    } else
+                                                    {
+                                                        if (rule6=='self-employed')
+                                                        {
+                                                            if (rule8==1)
+                                                            {
+                                                                location.href='nostrokeResult.html'
+                                                            } else
+                                                            {
+                                                                if (rule8==0)
+                                                                {
+                                                                    if (rule7=='perkotaan')
+                                                                    {
+                                                                        location.href='strokeResult.html'
+                                                                    } else
+                                                                    {
+                                                                        if (rule7=='pedesaan')
+                                                                        {
+                                                                            if (rule10=='pernah merokok')
+                                                                            {
+                                                                                location.href='strokeResult.html'
+                                                                            } else
+                                                                            {
+                                                                                if (rule10=='merokok')
+                                                                                {
+                                                                                    location.href='strokeResult.html'
+                                                                                } else
+                                                                                {
+                                                                                    if (rule10=='tidak merokok')
+                                                                                    {
+                                                                                        if (rule1=='laki-laki')
+                                                                                        {
+                                                                                            location.href='strokeResult.html'
+                                                                                        } else
+                                                                                        {
+                                                                                            if (rule1=='perempuan')
+                                                                                            {
+                                                                                                location.href='nostrokeResult.html'
+                                                                                            } else
+                                                                                            {
+                                                                                                location.href='error.html'
+                                                                                            }
+                                                                                        }
+                                                                                    }
+                                                                                }
+                                                                            }
+                                                                        }
+                                                                    }
+                                                                }
+                                                            }
+                                                        } else
+                                                        {
+                                                            if (rule6=='wiraswasta')
+                                                            {
+                                                                if (rule10=='tidak merokok')
+                                                                {
+                                                                    location.href='strokeResult.html'
+                                                                } else
+                                                                {
+                                                                    if (rule10=='pernah merokok')
+                                                                    {
+                                                                        location.href='strokeResult.html'
+                                                                    } else
+                                                                    {
+                                                                        if (rule10=='merokok')
+                                                                        {
+                                                                            location.href='nostrokeResult.html'
+                                                                        } else
+                                                                        {
+                                                                            location.href='error.html'
+                                                                        }
+                                                                    }
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            } else
+                            {
+                                if (rule3==0)
+                                {
+                                    if (rule5==0)
+                                    {
+                                        if (rule1=='perempuan')
+                                        {
+                                            location.href='nostrokeResult.html'
+                                        } else
+                                        {
+                                            if (rule1=='laki-laki')
+                                            {
+                                                if (rule6=='belum bekerja')
+                                                {
+                                                    location.href='strokeResult.html'
+                                                } else
+                                                {
+                                                    if (rule6=='tidak bekerja')
+                                                    {
+                                                        location.href='strokeResult.html'
+                                                    } else
+                                                    {
+                                                        if (rule6=='ASN')
+                                                        {
+                                                            location.href='strokeResult.html'
+                                                        } else
+                                                        {
+                                                            if (rule6=='self-employed')
+                                                            {
+                                                                location.href='strokeResult.html'
+                                                            } else
+                                                            {
+                                                                if (rule6=='wiraswasta')
+                                                                {
+                                                                    location.href='nostrokeResult.html'
+                                                                } else
+                                                                {
+                                                                    location.href='error.html'
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    } else
+                                    {
+                                        if (rule5==1)
+                                        {
+                                            if (rule10=='tidak merokok')
+                                            {
+                                                if (rule7=='perkotaan')
+                                                {
+                                                    if (rule6=='belum bekerja')
+                                                    {
+                                                        location.href='strokeResult.html'
+                                                    } else
+                                                    {
+                                                        if (rule6=='tidak bekerja')
+                                                        {
+                                                            location.href='strokeResult.html'
+                                                        } else
+                                                        {
+                                                            if (rule6=='ASN')
+                                                            {
+                                                                location.href='strokeResult.html'
+                                                            } else
+                                                            {
+                                                                if (rule6=='self-employed')
+                                                                {
+                                                                    location.href='strokeResult.html'
+                                                                } else
+                                                                {
+                                                                    if (rule6=='wiraswasta')
+                                                                    {
+                                                                        location.href='nostrokeResult.html'
+                                                                    } else
+                                                                    {
+                                                                        location.href='error.html'
+                                                                    }
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                } else
+                                                {
+                                                    if (rule7=='pedesaan')
+                                                    {
+                                                        if (rule1=='laki-laki')
+                                                        {
+                                                            if (rule6=='belum bekerja')
+                                                            {
+                                                                location.href='strokeResult.html'
+                                                            } else
+                                                            {
+                                                                if (rule6=='tidak bekerja')
+                                                                {
+                                                                    location.href='strokeResult.html'
+                                                                } else
+                                                                {
+                                                                    if (rule6=='ASN')
+                                                                    {
+                                                                        location.href='nostrokeResult.html'
+                                                                    } else
+                                                                    {
+                                                                        if (rule6=='self-employed')
+                                                                        {
+                                                                            location.href='strokeResult.html'
+                                                                        } else
+                                                                        {
+                                                                            if (rule6=='wiraswasta')
+                                                                            {
+                                                                                location.href='strokeResult.html'
+                                                                            } else
+                                                                            {
+                                                                                location.href='error.html'
+                                                                            }
+                                                                        }
+                                                                    }
+                                                                }
+                                                            }
+                                                        } else
+                                                        {
+                                                            if (rule1=='perempuan')
+                                                            {
+                                                                if (rule8==1)
+                                                                {
+                                                                    location.href='strokeResult.html'
+                                                                } else
+                                                                {
+                                                                    if (rule8==0)
+                                                                    {
+                                                                        if (rule6=='belum bekerja')
+                                                                        {
+                                                                            location.href='nostrokeResult.html'
+                                                                        } else
+                                                                        {
+                                                                            if (rule6=='tidak bekerja')
+                                                                            {
+                                                                                location.href='nostrokeResult.html'
+                                                                            } else
+                                                                            {
+                                                                                if (rule6=='ASN')
+                                                                                {
+                                                                                    location.href='strokeResult.html'
+                                                                                } else
+                                                                                {
+                                                                                    if (rule6=='self-employed')
+                                                                                    {
+                                                                                        if (rule9=='kurus')
+                                                                                        {
+                                                                                            location.href='nostrokeResult.html'
+                                                                                        } else
+                                                                                        {
+                                                                                            if (rule9=='normal')
+                                                                                            {
+                                                                                                location.href='nostrokeResult.html'
+                                                                                            } else
+                                                                                            {
+                                                                                                if (rule9=='obesitas')
+                                                                                                {
+                                                                                                    location.href='strokeResult.html'
+                                                                                                } else
+                                                                                                {
+                                                                                                    location.href='error.html'
+                                                                                                }
+                                                                                            }
+                                                                                        }
+                                                                                    } else
+                                                                                    {
+                                                                                        if (rule6=='wiraswasta')
+                                                                                        {
+                                                                                            if (rule9=='kurus')
+                                                                                            {
+                                                                                                location.href='strokeResult.html'
+                                                                                            } else
+                                                                                            {
+                                                                                                if (rule9=='normal')
+                                                                                                {
+                                                                                                    location.href='strokeResult.html'
+                                                                                                } else
+                                                                                                {
+                                                                                                    if (rule9=='obesitas')
+                                                                                                    {
+                                                                                                        location.href='nostrokeResult.html'
+                                                                                                    } else
+                                                                                                    {
+                                                                                                        location.href='error.html'
+                                                                                                    }
+                                                                                                }
+                                                                                            }
+                                                                                        }
+                                                                                    }
+                                                                                }
+                                                                            }
+                                                                        }
+                                                                    }
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            } else
+                                            {
+                                                if (rule10=='pernah merokok')
+                                                {
+                                                    if (rule6=='belum bekerja')
+                                                    {
+                                                        location.href='nostrokeResult.html'
+                                                    } else
+                                                    {
+                                                        if (rule6=='tidak bekerja')
+                                                        {
+                                                            location.href='nostrokeResult.html'
+                                                        } else
+                                                        {
+                                                            if (rule6=='ASN')
+                                                            {
+                                                                if (rule8==1)
+                                                                {
+                                                                    location.href='strokeResult.html'
+                                                                } else
+                                                                {
+                                                                    if (rule8==0)
+                                                                    {
+                                                                        location.href='nostrokeResult.html'
+                                                                    } else
+                                                                    {
+                                                                        location.href='error.html'
+                                                                    }
+                                                                }
+                                                            } else
+                                                            {
+                                                                if (rule6=='self-employed')
+                                                                {
+                                                                    if (rule8==1)
+                                                                    {
+                                                                        location.href='nostrokeResult.html'
+                                                                    } else
+                                                                    {
+                                                                        if (rule8==0)
+                                                                        {
+                                                                            location.href='strokeResult.html'
+                                                                        } else
+                                                                        {
+                                                                            location.href='error.html'
+                                                                        }
+                                                                    }
+                                                                } else
+                                                                {
+                                                                    if (rule6=='wiraswasta')
+                                                                    {
+                                                                        if (rule1=='laki-laki')
+                                                                        {
+                                                                            if (rule8==0)
+                                                                            {
+                                                                                location.href='strokeResult.html'
+                                                                            } else
+                                                                            {
+                                                                                if (rule8==1)
+                                                                                {
+                                                                                    location.href='nostrokeResult.html'
+                                                                                } else
+                                                                                {
+                                                                                    location.href='error.html'
+                                                                                }
+                                                                            }
+                                                                        } else
+                                                                        {
+                                                                            if (rule1=='perempuan')
+                                                                            {
+                                                                                if (rule8==1)
+                                                                                {
+                                                                                    location.href='strokeResult.html'
+                                                                                } else
+                                                                                {
+                                                                                    if (rule8==0)
+                                                                                    {
+                                                                                        location.href='nostrokeResult.html'
+                                                                                    } else
+                                                                                    {
+                                                                                        location.href='error.html'
+                                                                                    }
+                                                                                }
+                                                                            }
+                                                                        }
+                                                                    }
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                } else
+                                                {
+                                                    if (rule10=='merokok')
+                                                    {
+                                                        if (rule8==1)
+                                                        {
+                                                            location.href='strokeResult.html'
+                                                        } else
+                                                        {
+                                                            if (rule8==0)
+                                                            {
+                                                                if (rule7=='perkotaan')
+                                                                {
+                                                                    if (rule9=='kurus')
+                                                                    {
+                                                                        location.href='strokeResult.html'
+                                                                    } else
+                                                                    {
+                                                                        if (rule9=='normal')
+                                                                        {
+                                                                            location.href='strokeResult.html'
+                                                                        } else
+                                                                        {
+                                                                            if (rule9=='obesitas')
+                                                                            {
+                                                                                location.href='nostrokeResult.html'
+                                                                            } else
+                                                                            {
+                                                                                location.href='error.html'
+                                                                            }
+                                                                        }
+                                                                    }
+                                                                } else
+                                                                {
+                                                                    if (rule7=='pedesaan')
+                                                                    {
+                                                                        location.href='nostrokeResult.html'
+                                                                    } else
+                                                                    {
+                                                                        location.href='error.html'
+                                                                    }
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
             }
         }
     }
