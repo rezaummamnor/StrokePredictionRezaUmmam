@@ -292,7 +292,8 @@ output {
 
 .part1 {
 	margin-right: 200px;
-	
+	width: 100%;
+
 }
 
 .part1:after {
@@ -303,28 +304,30 @@ output {
 
 .part1 ul {
 	list-style-type: none;
+	
 }
 
 .part1 ul li {
-
 	float: right;
-	width: 40%;
+	width: 45%;
 	padding: 0 20px;
-}
+	margin-right: 0px;
 
-.part1 p {
-	border-bottom: #4a4a4a 2px solid;
-	text-align: center;
-	padding-bottom: 10px;
-	padding-right: 10px;
 }
 
 .part1 img {
 	width: 400px;
+	padding-top: 30px;
+	padding-left: 100px;
+}
+
+#dua {
+	text-align: center;
+	border-bottom: #4a4a4a 2px solid;
 }
 
 #ptips {
-	margin-top: 5%;
+	text-align: left;
 }
 
 #rokok {
@@ -456,10 +459,66 @@ output {
 	
 }
 
+.tips {
+	padding: 0px 10%;
+	margin-bottom: 50px;
+}
+
+.tips img {
+	width: 35%;
+	float: right;
+	
+}
+
+.tips p {
+	width: 72%;
+}
+
+#tips2 {
+	width: 25%;
+}
+
+#tips2p {
+	height: 300px;
+}
+
+#tips3 {
+	margin-left: 50px;
+}
+
+#tips3p {
+	height: 300px;
+	padding: 20px 0 0 0;
+}
+
 @keyframes puterin {
 	100% {
 		transform: rotate(360deg);
 	}
+}
+
+@media screen and (max-width: 900px) {
+	.tips {
+		padding: 0px 5%;
+		margin-bottom: 50px;
+	}
+	
+	.tips img {
+		margin-top: 120px;
+		width: 40%;
+		float: right;
+		
+	}
+	
+	.tips p {
+		width: 57%;
+	}
+
+	#tips2 {
+		margin-top: 0;
+		width: 40%;
+	}
+
 }
 @media screen and (max-width: 768px){
 	.container {
