@@ -491,6 +491,16 @@ output {
 	padding: 20px 0 0 0;
 }
 
+#tips4 {
+	margin-left: 50px;
+	width: 30%;
+}
+
+#tips4p {
+	height: 200px;
+	padding: 20px 0 0 0;
+}
+
 @keyframes puterin {
 	100% {
 		transform: rotate(360deg);
