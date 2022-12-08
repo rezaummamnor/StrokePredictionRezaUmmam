@@ -482,15 +482,6 @@ output {
 	height: 300px;
 }
 
-#tips3 {
-	margin-left: 50px;
-}
-
-#tips3p {
-	height: 300px;
-	padding: 20px 0 0 0;
-}
-
 #tips4 {
 	margin-left: 50px;
 	width: 30%;
@@ -499,6 +490,35 @@ output {
 #tips4p {
 	height: 200px;
 	padding: 20px 0 0 0;
+}
+
+#tips6 {
+	margin-left: 50px;
+	width: 30%;
+}
+
+#tips6p {
+	height: 200px;
+	padding: 20px 0 0 0;
+}
+
+#tips5 {
+	margin-left: 50px;
+	width: 25%;
+}
+
+#tips5p {
+	height: 300px;
+	padding: 20px 0 0 0;
+}
+
+#tips7 {
+	margin-left: 30px;
+	width: 30%;
+}
+
+.tips p {
+	text-align: justify;
 }
 
 @keyframes puterin {
@@ -528,6 +548,46 @@ output {
 		margin-top: 0;
 		width: 40%;
 	}
+
+	#tips4 {
+		margin-top: 40px;
+		width: 35%;
+	}
+	
+	#tips4p {
+		padding: 0px;
+		width: 62%;
+		height: 230px;
+	}
+
+	#tips6 {
+		margin-top: 80px;
+		margin-left: 0px;
+		width: 40%;
+	}
+	
+	#tips6p {
+		height: 300px;
+		padding: 0;
+	}
+
+	#tips7 {
+		margin-top: 150px;
+		margin-left: 0px;
+		width: 38%;
+	}
+
+	#tips5p {
+		height: 250px;
+		padding: 0;
+	}
+
+	#tips5 {
+		margin-top: 0px;
+		margin-left: 0px;
+		width: 35%;
+	}
+	
 
 }
 @media screen and (max-width: 768px){
