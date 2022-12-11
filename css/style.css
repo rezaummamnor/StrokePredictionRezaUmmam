@@ -178,7 +178,7 @@ header ul li a:hover {
 	border-right:rgb(255, 255, 255) 3px solid;
 }
 
-.home a {
+.home button {
 	background-color:rgb(73, 73, 73);
 	margin: 30px;
 	color: #fff;
@@ -187,7 +187,7 @@ header ul li a:hover {
 	border-radius:5em;
 }
 
-.home a:hover {
+.home button:hover {
 	background-color: rgb(255, 255, 255);
 	color:rgb(73, 73, 73);
 }
@@ -604,7 +604,7 @@ output {
 }
 
 #tips5p {
-	height: 300px;
+	height: 180px;
 	padding: 20px 0 0 0;
 }
 
@@ -617,6 +617,15 @@ output {
 	text-align: justify;
 }
 
+#tips8 {
+	width: 23%;
+}
+
+#tips8p {
+	padding-top: 20px;
+	height: 250px;
+}
+
 @keyframes puterin {
 	100% {
 		transform: rotate(360deg);
@@ -626,6 +635,13 @@ output {
 @media screen and (max-width: 900px) {
 	.info {
 		width: 78%;
+	}
+
+	.home button {
+		padding: 10px;
+		width: 40%;
+		margin-left: 10px;
+		margin-top: 20px;
 	}
 
 	.peringkat {
@@ -712,6 +728,11 @@ output {
 		width: 35%;
 	}
 
+	#tips8 {
+		margin-top: 20px;
+		width: 35%;
+	}
+
 	.about1 {
 		padding: 0 5%;
 	}
@@ -742,6 +763,69 @@ output {
 
 }
 @media screen and (max-width: 768px){
+	.home {
+		background-image: url('../img/welcomeBannerPhone2.jpg');
+		height: 73vh;
+	}
+
+	.infostrok {
+		padding-top: 25px;
+	}
+
+	#ajakan {
+		font-size: 15pt;
+		text-align: center;
+	}
+
+	.prevalensi {
+		width: 100%;
+		float: none;
+		padding: 0;
+		margin-bottom: 10px;
+	}
+
+	.prevalensi h4 {
+		padding-top: 25px;
+		font-size: 10pt;
+	}
+
+	.peringkat {
+		margin-left: 15px;
+	}
+
+	#peringkatdunia {
+		padding: 0;
+	}
+
+
+	.peringkat p {
+		font-size: 11pt;
+		padding-bottom: 0px;
+	}
+
+	.peringkat h3 {
+		font-size: 50pt;
+		line-height: 50pt;
+		
+	}
+
+	.young {
+		margin-top: 5px;
+		font-size: 11pt;
+	}
+
+	#tagline {
+		float: left;
+		font-size: 12pt;
+		width: 45%;
+		padding-right: 10px;
+	}
+
+	.caution {
+		height: 100px;
+		margin-top: 0;
+	}
+
 	.container {
 		width:90%;
 	}
@@ -758,6 +842,118 @@ output {
 		float: none;
 		margin-bottom: 20px;
 	}
+
+	#aboutp {
+		height: 260px;
+		font-size: 10pt;
+		width: 60%;
+		text-align: justify;
+	}
+
+	#aboutimg {
+		margin-top: 70px;
+		width: 35%;
+	}
+
+	#aboutimg2 {
+		margin-top: 30px;
+		width: 35%;
+	}
+
+	#aboutp2 {
+		width: 60%;
+		height: 140px;
+		font-size: 10pt;
+		text-align: justify;
+	}
+
+	.about3 {
+		font-size: 10pt;
+		margin-bottom: 10px;
+	}
+
+	#aboutp3 {
+		margin-left: 25px;
+		height: 167px;
+	}
+
+	.strokepredict {
+		font-size: 10pt;
+	}
+
+	.aboutTitles, .aboutTitles2 {
+		font-size: 10pt;
+	}
+
+	.aboutTitles img, .aboutTitles2 img {
+		width: 300px;
+	}
+
+	.tips {
+		margin-bottom: 0;
+	}
+
+	.tips p {
+		font-size: 10pt;
+		width: 100%;
+		margin-bottom: 0px;
+	}
+
+	.tips img {
+		margin-top: 0;
+		float: none;
+		width: 100%;
+	}
+
+	#tips2 {
+		width: 70%;
+		margin-left: 50px;
+	}
+
+	#tips2p {
+		height: 220px;
+	}
+
+	#tips4 {
+		margin-top: 0;
+		width: 90%;
+		margin-left: 15px;
+	}
+
+	#tips4p {
+		width: 100%;
+		height: 190px;
+	}
+
+	#tips5p {
+		height: 155px;
+	}
+
+	#tips6 {
+		width: 100%;
+		margin-top: 0;
+	}
+
+	#tips6p {
+		height: 250px;
+	}
+
+	#tips7 {
+		width: 70%;
+		margin-left: 50px;
+		margin-top: 0;
+	}
+
+	#tips8 {
+		width: 60%;
+		margin-top: 0;
+		margin-left: 70px;
+	}
+
+	#tips8p {
+		margin-bottom: 30px;
+	}
+
 }
 
 @media screen and (max-width: 750px){
