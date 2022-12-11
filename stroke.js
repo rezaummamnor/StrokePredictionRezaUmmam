@@ -24,6 +24,7 @@ item.addEventListener('click',(e)=>{
 
 function BMI()
 {
+    document.getElementById('question9').style.backgroundColor = '#c2d40080'
     tinggi = tb.value/100
     bmi_value = bb.value/(tinggi*tinggi)
     if(bmi_value<=18.4)
@@ -53,6 +54,7 @@ function BMI()
 
 function kategoriUmur(a)
 {
+    document.getElementById('question2').style.backgroundColor = '#c2d40080'
     if (a <= 10)
     {
         rule2 = 'anak-anak'
@@ -96,6 +98,7 @@ function kategoriUmur(a)
 //jenis kelamin
 function input1(param)
 {
+    document.getElementById('question1').style.backgroundColor = '#c2d40080'
     if (param=='laki-laki') 
     {
        rule1='laki-laki'
@@ -117,6 +120,7 @@ function input1(param)
 //kategori umur
 function input2(param)
 {
+    document.getElementById('question2').style.backgroundColor = '#c2d40080'
     if (param=='anak-anak') 
     {
        rule2='anak-anak'
@@ -160,6 +164,7 @@ function input2(param)
 //riwayat hipertensi
 function input3(param)
 {
+    document.getElementById('question3').style.backgroundColor = '#c2d40080'
     if (param=='Ya') 
     {
        rule3=1
@@ -181,6 +186,7 @@ function input3(param)
 //riwayat penyakit jantung
 function input4(param)
 {
+    document.getElementById('question4').style.backgroundColor = '#c2d40080'
     if (param=='Ya') 
     {
        rule4=1
@@ -202,6 +208,7 @@ function input4(param)
 //status pernikahan
 function input5(param)
 {
+    document.getElementById('question5').style.backgroundColor = '#c2d40080'
     if (param=='Ya') 
     {
        rule5=1
@@ -223,6 +230,7 @@ function input5(param)
 //tipe pekerjaan
 function input6(param)
 {
+    document.getElementById('question6').style.backgroundColor = '#c2d40080'
     if (param=='ASN') 
     {
        rule6='ASN'
@@ -266,6 +274,7 @@ function input6(param)
 //area tempat tinggal
 function input7(param)
 {
+    document.getElementById('question7').style.backgroundColor = '#c2d40080'
     if (param=='perkotaan') 
     {
        rule7='perkotaan'
@@ -288,6 +297,7 @@ function input7(param)
 //riwayat diabetes
 function input8(param)
 {
+    document.getElementById('question8').style.backgroundColor = '#c2d40080'
     if (param=='Ya') 
     {
        rule8=1
@@ -338,6 +348,7 @@ function input9(param)
 //status merokok
 function input10(param)
 {
+    document.getElementById('question10').style.backgroundColor = '#c2d40080'
     if (param=='tidak merokok') 
     {
        rule10='tidak merokok'
@@ -362,6 +373,7 @@ function input10(param)
         }
     }
 }
+
 
 function predictRUS()
 {

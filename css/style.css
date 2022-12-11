@@ -46,11 +46,41 @@ header ul li a:hover {
 	font-weight: bold;
 }
 
+.blink-bg{
+	color: #fff;
+	padding: 10px;
+	display: inline-block;
+	border-radius: 5px;
+	animation: blinkingBackground 2s infinite;
+}
+@keyframes blinkingBackground{
+	0%		{ background-color: #9410c0;}
+	25%		{ background-color: #b110c0;}
+	50%		{ background-color: #df37cb;}
+	75%		{ background-color: #df55d8;}
+	100%	{ background-color: #f87ef0;}
+}
+
+.blink-text{
+	color: #000;
+	font-weight: bold;
+	font-size: 2rem;
+	animation: blinkingText 2s infinite;
+}
+@keyframes blinkingText{
+	0%		{ color: #c2d40080;}
+	25%		{ color: #bd10c0;}
+	50%		{ color: #b801bb;}
+	75%		{ color: #e542c7;}
+	100%	{ color: #ff76f6;}
+}
+
 .tittle h1 {
 	width:fit-content;
 	padding: 10px;
 	margin-bottom: 10px;
 	border:5px solid #fff;
+	animation: blinkingBackground 2s infinite;
 }
 .tittle h3 {
 	color: rgb(73, 73, 73);
@@ -75,7 +105,7 @@ header ul li a:hover {
 	width: 40%;
 	margin: 0 auto;
 	padding: 20px 20px;
-	background: rgba(73, 73, 73, 0.5);
+	background: rgba(215, 195, 37, 0.361);
 	border-radius: 2em;
 	
 }
@@ -85,16 +115,16 @@ header ul li a:hover {
 	width: 27%;
 	float: left;
 	margin-right: 10px;
-	padding: 10px;
+	padding: 15px;
 	border-radius: 1em;
-	background: rgba(255, 255, 255, 0.3);
+	background: rgba(0, 0, 0, 0.446);
 	
 }
 
 .peringkat h3 {
 	font-size: 80pt;
 	line-height: 60pt;
-	color: #fff;
+	color: rgba(255, 206, 70, 0.848);
 	text-align: center;
 	
 }
@@ -102,7 +132,8 @@ header ul li a:hover {
 .peringkat p {
 	text-align: center;
 	font-weight: bold;
-	padding-bottom: 5px;
+	padding-bottom: 10px;
+	color: rgba(255, 255, 255, 0.795);
 }
 
 #peringkatdunia {
@@ -126,9 +157,7 @@ header ul li a:hover {
 	padding-top: 10px;
 	width: fit-content;
 	margin: 0 auto;
-	margin-top: 150px;
-	
-	color: #fff;
+	margin-top: 165px;
 	text-align: center;
 }
 
@@ -412,25 +441,58 @@ output {
 
 /*HASIL RISIKO STROK*/
 
+#eval2 {
+	background-image: url('../img/background.jpg');
+	background-size: cover;
+	border: #fff 2px solid;
+	font-size: large;
+	margin-bottom: 0px;
+	width: fit-content;
+	
+}
+
 .aboutTitles {
 	text-align: center;
-	background-image: url('../img/background.jpg');
+	background-image: url('../img/background_red.jpg');
 	background-size: cover;
 	color: #4a4a4a;
 	padding: 20px;
 }
 
+.aboutTitles2 {
+	text-align: center;
+	background-image: url('../img/background_green.jpg');
+	background-size: cover;
+	color: #4a4a4a;
+	padding: 20px;
+}
+
+.aboutTitles2 img {
+	width: 430px;
+}
+
+.aboutTitles2 h3 {
+	border: #4a4a4a 4px solid;
+	padding: 5px;
+	margin-left: auto;
+	margin-right: auto;
+	width: fit-content;
+	margin-bottom: 10px;
+	font-size: 20pt;
+	
+}
+
 .aboutTitles img {
-	width: 500px;
+	width: 380px;
 }
 
 .aboutTitles h3 {
 	border: #4a4a4a 4px solid;
-	padding: 10px;
+	padding: 5px;
 	margin-left: auto;
 	margin-right: auto;
 	width: fit-content;
-	margin-bottom: 20px;
+	margin-bottom: 10px;
 	font-size: 20pt;
 	
 }
@@ -438,10 +500,10 @@ output {
 .saran p {
 	color: #fff;
 	background-color: #4a4a4a;
-	width: 70%;
-	margin: 20pt 10%;
-	padding: 20px;
-	border-radius: 2em;
+	width: 80%;
+	margin: 10pt 10%;
+	padding: 10px;
+	border-radius: 1em;
 	margin-left: auto;
 	margin-right: auto;
 	text-align: center;
@@ -562,6 +624,34 @@ output {
 }
 
 @media screen and (max-width: 900px) {
+	.info {
+		width: 78%;
+	}
+
+	.peringkat {
+		padding: 7px;
+		margin-left: 5px;
+	}
+
+	.peringkat h3 {
+		font-size: 60pt;
+	}
+
+	.peringkat p {
+		padding-bottom: 5px;
+	}
+
+	.young {
+		margin-top: 150px;
+	}
+
+
+	#tagline {
+		margin-top: 10px;
+		font-size: 22pt;
+	}
+
+
 	.tips {
 		padding: 0px 5%;
 		margin-bottom: 50px;
