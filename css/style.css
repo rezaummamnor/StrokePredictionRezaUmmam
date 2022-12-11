@@ -41,7 +41,7 @@ header ul li a:hover {
 .tittle {
 	background-image: url('../img/background.jpg');
 	background-size: cover;
-	color: #fff;
+	color: #333;
 	padding: 20px 20px;
 	font-weight: bold;
 }
@@ -54,11 +54,11 @@ header ul li a:hover {
 	animation: blinkingBackground 2s infinite;
 }
 @keyframes blinkingBackground{
-	0%		{ background-color: #9410c0;}
-	25%		{ background-color: #b110c0;}
-	50%		{ background-color: #df37cb;}
-	75%		{ background-color: #df55d8;}
-	100%	{ background-color: #f87ef0;}
+	0%		{ background-color: #b5aff9;}
+	25%		{ background-color: #bbb0f5;}
+	50%		{ background-color: #d3b1e4;}
+	75%		{ background-color: #eeb2d4;}
+	100%	{ background-color: #f3b2d2;}
 }
 
 .blink-text{
@@ -83,7 +83,7 @@ header ul li a:hover {
 	animation: blinkingBackground 2s infinite;
 }
 .tittle h3 {
-	color: rgb(73, 73, 73);
+	color: #333;
 }
 
 .home {
@@ -179,8 +179,11 @@ header ul li a:hover {
 }
 
 .home button {
+	font-size: 13pt;
+	width: 15%;
 	background-color:rgb(73, 73, 73);
-	margin: 30px;
+	margin-top: 5px;
+	margin-left: 30px;
 	color: #fff;
 	text-decoration: none;
 	padding: 20px;
@@ -298,7 +301,7 @@ footer {
 	width: 78%;
 }
 
-#aboutimg {
+#aboutimg, #aboutimg2 {
 	margin-left: 0px;
 	width: 20%;
 }
@@ -869,7 +872,7 @@ output {
 
 	.about3 {
 		font-size: 10pt;
-		margin-bottom: 10px;
+		margin-bottom: 20px;
 	}
 
 	#aboutp3 {
@@ -885,9 +888,29 @@ output {
 		font-size: 10pt;
 	}
 
-	.aboutTitles img, .aboutTitles2 img {
-		width: 300px;
+	#aboutimg, #aboutimg2 {
+		float: none;
+		width: 60%;
+		margin-top: 0;
+		padding-top: 0;
+		margin-left: 70px;
+		margin-bottom: 10px;
 	}
+
+	#aboutp, #aboutp2 {
+		width: 100%;
+	}
+
+	#aboutp {
+		height: 160px;
+	}
+
+	#aboutp2 {
+		height: 80px;
+	}
+
+
+
 
 	.tips {
 		margin-bottom: 0;
