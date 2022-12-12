@@ -570,7 +570,7 @@ output {
 }
 
 .tips p {
-	width: 72%;
+	width: 64%;
 }
 
 #tips2 {
@@ -578,7 +578,19 @@ output {
 }
 
 #tips2p {
+	width: 72%;
 	height: 300px;
+}
+
+#tips3 {
+	margin-left: 50px;
+	width: 25%;
+}
+
+#tips3p {
+	width: 72%;
+	height: 200px;
+	padding: 20px 0 0 0;
 }
 
 #tips4 {
@@ -587,17 +599,8 @@ output {
 }
 
 #tips4p {
-	height: 200px;
-	padding: 20px 0 0 0;
-}
-
-#tips6 {
-	margin-left: 50px;
-	width: 30%;
-}
-
-#tips6p {
-	height: 200px;
+	width: 72%;
+	height: 170px;
 	padding: 20px 0 0 0;
 }
 
@@ -607,13 +610,34 @@ output {
 }
 
 #tips5p {
-	height: 180px;
+	width: 72%;
+	height: 140px;
+	padding: 20px 0 0 0;
+}
+
+
+#tips6 {
+	margin-top: 30px;
+	margin-left: 50px;
+	width: 25%;
+}
+
+#tips6p {
+	width: 72%;
+	height: 380px;
 	padding: 20px 0 0 0;
 }
 
 #tips7 {
+	margin-top: 30px;
 	margin-left: 30px;
-	width: 30%;
+	width: 25%;
+}
+
+#tips7p {
+	width: 72%;
+	height: 380px;
+	padding: 20px 0 0 0;
 }
 
 .tips p {
@@ -625,6 +649,7 @@ output {
 }
 
 #tips8p {
+	width: 75%;
 	padding-top: 20px;
 	height: 250px;
 }
@@ -673,7 +698,7 @@ output {
 
 	.tips {
 		padding: 0px 5%;
-		margin-bottom: 50px;
+		margin-bottom: 30px;
 	}
 	
 	.tips img {
@@ -688,53 +713,89 @@ output {
 	}
 
 	#tips2 {
+		margin-top: 20px;
+		width: 30%;
+	}
+
+	#tips2p {
 		margin-top: 0;
-		width: 40%;
+		width: 67%;
+		height: 250px;
+	}
+
+	#tips3 {
+		margin-top: 30px;
+		width: 30%;
+		margin-left: 0;
+	}
+
+	#tips3p {
+		margin-top: 0;
+		padding-top: 0;
+		width: 67%;
+		height: 200px;
+		padding-right: 0;
 	}
 
 	#tips4 {
-		margin-top: 40px;
+		margin-left: 0;
+		margin-top: 25px;
 		width: 35%;
 	}
 	
 	#tips4p {
 		padding: 0px;
 		width: 62%;
-		height: 230px;
+		height: 210px;
+	}
+
+	#tips5 {
+		margin-left: 0;
+		margin-top: 80px;
+		width: 35%;
+	}
+	
+	#tips5p {
+		padding: 0px;
+		width: 62%;
+		height: 290px;
 	}
 
 	#tips6 {
-		margin-top: 80px;
+		margin-top: 170px;
 		margin-left: 0px;
-		width: 40%;
+		width: 30%;
 	}
 	
 	#tips6p {
-		height: 300px;
+		width: 67%;
+		height: 550px;
 		padding: 0;
 	}
 
 	#tips7 {
 		margin-top: 150px;
 		margin-left: 0px;
-		width: 38%;
+		width: 30%;
 	}
 
-	#tips5p {
-		height: 250px;
+	#tips7p {
+		width: 67%;
+		height: 530px;
 		padding: 0;
-	}
-
-	#tips5 {
-		margin-top: 0px;
-		margin-left: 0px;
-		width: 35%;
 	}
 
 	#tips8 {
 		margin-top: 20px;
-		width: 35%;
+		width: 30%;
 	}
+
+	#tips8p {
+		width: 67%;
+		height: 250px;
+		padding: 0;
+	}
+
 
 	.about1 {
 		padding: 0 5%;
@@ -909,9 +970,6 @@ output {
 		height: 80px;
 	}
 
-
-
-
 	.tips {
 		margin-bottom: 0;
 	}
@@ -934,7 +992,19 @@ output {
 	}
 
 	#tips2p {
+		width: 100%;
 		height: 220px;
+	}
+
+	#tips3 {
+		margin-top: 0;
+		width: 90%;
+		margin-left: 15px;
+	}
+
+	#tips3p {
+		width: 100%;
+		height: 190px;
 	}
 
 	#tips4 {
@@ -948,24 +1018,39 @@ output {
 		height: 190px;
 	}
 
+	#tips5 {
+		margin-top: 0;
+		width: 100%;
+		margin-left: 0px;
+	}
+
 	#tips5p {
-		height: 155px;
+		width: 100%;
+		height: 250px;
 	}
 
 	#tips6 {
-		width: 100%;
+		margin-left: 30px;
+		width: 80%;
 		margin-top: 0;
 	}
 
 	#tips6p {
-		height: 250px;
+		width: 100%;
+		height: 500px;
 	}
 
 	#tips7 {
-		width: 70%;
-		margin-left: 50px;
+		margin-left: 30px;
+		width: 80%;
 		margin-top: 0;
 	}
+
+	#tips7p {
+		width: 100%;
+		height: 500px;
+	}
+
 
 	#tips8 {
 		width: 60%;
@@ -974,7 +1059,9 @@ output {
 	}
 
 	#tips8p {
+		width: 100%;
 		margin-bottom: 30px;
+		height: 200px;
 	}
 
 }
