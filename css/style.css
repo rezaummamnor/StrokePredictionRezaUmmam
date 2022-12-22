@@ -471,7 +471,7 @@ output {
 }
 
 .aboutTitles2 img {
-	width: 430px;
+	width: 30%;
 }
 
 .aboutTitles2 h3 {
@@ -486,7 +486,7 @@ output {
 }
 
 .aboutTitles img {
-	width: 380px;
+	width: 20%;
 }
 
 .aboutTitles h3 {
@@ -693,6 +693,14 @@ output {
 	#tagline {
 		margin-top: 10px;
 		font-size: 22pt;
+	}
+
+	.aboutTitles2 img {
+		width: 70%;
+	}
+
+	.aboutTitles img {
+		width: 70%;
 	}
 
 
