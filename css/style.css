@@ -98,7 +98,7 @@ header ul li a:hover {
 
 .infostrok {
 	padding: 20px 0;
-	padding-top: 70px;
+	padding-top: 50px;
 }
 
 .info {
@@ -197,8 +197,9 @@ header ul li a:hover {
 
 .caution {
 	margin-top: 20px;
-	height: 55px;
+	height: 100px;
 }
+
 
 .banner {
 	height: 65vh;
