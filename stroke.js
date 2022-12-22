@@ -55,44 +55,58 @@ function BMI()
 function kategoriUmur(a)
 {
     document.getElementById('question2').style.backgroundColor = '#c2d40080'
-    if (a <= 10)
+    if (a <= 1)
     {
-        rule2 = 'anak-anak'
+        rule2 = 'bayi'
         dicek2.value = rule2
     } else
     {
-        if (a<=19)
+        if (a<6)
         {
-            rule2 = 'remaja'
+            rule2 = 'balita'
             dicek2.value = rule2
         } else
         {
-            if (a<=44)
+            if (a <= 10)
             {
-                rule2 = 'dewasa'
+                rule2 = 'anak-anak'
                 dicek2.value = rule2
             } else
             {
-                if (a<=59)
+                if (a<=19)
                 {
-                    rule2 = 'pra lanjut usia'
+                    rule2 = 'remaja'
                     dicek2.value = rule2
                 } else
                 {
-                    if (a>59)
+                    if (a<=44)
                     {
-                        rule2 = 'lanjut usia'
-                        dicek2.value = rule2
+                    rule2 = 'dewasa'
+                    dicek2.value = rule2
                     } else
                     {
-                        rule2 = 'error'
-                        dicek2.value = rule2
+                        if (a<=59)
+                        {
+                            rule2 = 'pra lanjut usia'
+                            dicek2.value = rule2
+                        } else
+                        {
+                            if (a>59)
+                            {
+                                rule2 = 'lanjut usia'
+                                dicek2.value = rule2
+                            } else
+                            {
+                                rule2 = 'error'
+                                dicek2.value = rule2
+                            }
+                        }
                     }
                 }
+        
             }
         }
-        
-    }
+    }  
 }
 
 //jenis kelamin
@@ -1202,7 +1216,7 @@ function predictRUS()
 
 function predictROS()
 {
-    if (rule2=='anak-anak')
+    if (rule2=='bayi' ||  rule2=='balita' || rule2=='anak-anak' )
     {
         location.href='nostrokeResult.html'
     } else
